@@ -3,7 +3,7 @@ package com.mjpeg;
 import android.text.TextUtils;
 import android.util.Log;
 
-import javax.annotation.Nullable;
+import javax.annotation.NonNull;
 
 import java.io.IOException;
 import java.io.InputStream;
