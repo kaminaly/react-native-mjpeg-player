@@ -3,7 +3,7 @@ package com.mjpeg;
 import android.text.TextUtils;
 import android.util.Log;
 
-import javax.annotation.NonNull;
+import javax.annotation.Nonnull;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -94,7 +94,7 @@ public class Mjpeg {
         return this;
     }
 
-    @NonNull
+    @Nonnull
     private Observable<MjpegInputStream> connect(String url) {
         return Observable.defer(() -> {
             try {
